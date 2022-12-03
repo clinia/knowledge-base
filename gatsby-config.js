@@ -10,6 +10,7 @@ module.exports = {
         spaceId: process.env.SPACE_ID_REQUIRED,
         accessToken: process.env.CONTENTFUL_DELIVERY_API_TOKEN_REQUIRED,
         useNameForId: false,
+        environment: 'dev'
       },
     },
     'gatsby-plugin-react-helmet',
